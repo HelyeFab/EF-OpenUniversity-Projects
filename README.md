@@ -33,5 +33,5 @@ Feel free to reach out, discuss code, or collaborate! You can find me on:
 
 Twitter: @HelyeFab 🐦
 LinkedIn: Emmanuel Fabiani 👨‍💼
-Email: fabiani.emmanuel@gmail.com ✉️
+Email: emmanuelfabiani23@gmail.com ✉️
 Happy coding! 💻🎉 Let’s make things that matter. 🌟
