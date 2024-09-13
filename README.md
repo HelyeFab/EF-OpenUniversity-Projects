@@ -1,7 +1,7 @@
-🎓 Emmanuel's Code Playground 🖥️📚
+# 🎓 Emmanuel's Code Playground 🖥️📚
 Welcome to Emmanuel's Code Playground—where ideas come alive through code! 💻✨ This repo is my personal collection of projects, assignments, and experiments as I explore the fascinating world of Computer Science! 🚀
 
-What's Inside? 🔍
+# What's Inside? 🔍
 🧠 Python Projects: From data wrangling to automation scripts, Python is my go-to for quick and powerful coding adventures. 🐍💡
 
 ☕ Java Creations: Object-oriented programming at its finest! Expect to find class hierarchies, algorithms, and more! (Maybe a bit of BlueJ too! 😉) ☕📦
@@ -12,13 +12,13 @@ What's Inside? 🔍
 
 👨‍💻 Other Languages & Experiments: I love exploring! You might find snippets in JavaScript, C++, or whatever language grabs my curiosity next. 💻🌈
 
-Why This Repo Exists? 🤔
+# Why This Repo Exists? 🤔
 As a Computer Science student at the Open University 🎓, I'm learning so much every day! This repository is my sandbox 🏖️ where I can push code, break stuff, fix it, and (hopefully) grow into a coding wizard 🧙‍♂️! Feel free to take a peek and even suggest improvements if you’re feeling generous! ❤️
 
 How to Use This Repo 📖
 Feel free to:
 
-🌟 Star the repo if you like what you see!
+# 🌟 Star the repo if you like what you see!
 🍴 Fork it if you want to play around with the code.
 🔍 Explore and learn from the variety of projects.
 🤝 Contribute if you’ve got ideas that can make this better!

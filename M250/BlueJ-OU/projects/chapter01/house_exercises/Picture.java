@@ -15,7 +15,7 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
-    private Circle secondSun;
+    private Circle shade;  // The new blue shade
     private boolean drawn;
 
     /**
@@ -27,7 +27,7 @@ public class Picture
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
-        secondSun = new Circle();
+        shade = new Circle();  // Initialize the new shade (blue circle)
         drawn = false;
     }
 
@@ -37,34 +37,39 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
+            // Wall
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
             wall.changeSize(120);
             wall.makeVisible();
             
+            // Window
             window.changeColor("black");
             window.moveHorizontal(-120);
             window.moveVertical(40);
             window.changeSize(40);
             window.makeVisible();
-    
+
+            // Roof
             roof.changeSize(60, 180);
             roof.moveHorizontal(20);
             roof.moveVertical(-60);
             roof.makeVisible();
-    
-            sun.changeColor("blue");
+
+            // Sun
+            sun.changeColor("yellow");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
             
-            //Second sun
-            secondSun.changeColor("red");
-            secondSun.moveHorizontal(-100);
-            secondSun.moveVertical(-10);
-            secondSun.changeSize(80);
-            secondSun.makeVisible();
+            // Shade (blue circle to represent sunset effect)
+            shade.changeColor("blue");
+            shade.changeSize(600);
+            shade.moveHorizontal(-160);  // Adjust the position horizontally behind the house
+            shade.moveVertical(120);  // Adjust the position vertically behind the house
+            shade.makeVisible();
+
             drawn = true;
         }
     }
@@ -78,7 +83,6 @@ public class Picture
         window.changeColor("white");
         roof.changeColor("black");
         sun.changeColor("black");
-        secondSun.changeColor("black");
     }
 
     /**
@@ -86,10 +90,19 @@ public class Picture
      */
     public void setColor()
     {
-        wall.changeColor("blue");
+        wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
         sun.changeColor("yellow");
-        secondSun.changeColor("red");
+    }
+    
+    /**
+     * Animate the sunset by changing the sun and making the shade visible
+     */
+    public void setSunSet()
+    {
+        sun.changeColor("red");  // Change the sun to red for sunset effect
+        sun.moveVertical(100);   // Move the sun down to simulate setting
+        shade.makeVisible();     // Make the blue shade visible
     }
 }
