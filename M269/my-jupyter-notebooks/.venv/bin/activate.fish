@@ -33,7 +33,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/home/beanoai/Documents/SyncLab/Developer/UniWork/EF-OpenUniversity-Projects/M269/my-jupyter-notebooks/.venv"
+=======
+set -gx VIRTUAL_ENV "/home/helye-alienware/Documents/SyncLab/Developer/UniWork/EF-OpenUniversity-Projects/M269/my-jupyter-notebooks/.venv"
+>>>>>>> 81385fd8f625498634787784d9cabef7d99be368
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
