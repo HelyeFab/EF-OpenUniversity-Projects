@@ -9,5 +9,11 @@ public class Main {
         machine.insertMoney(300);
         machine.printTicket();
         System.out.println("Balance: " + machine.getBalance());
+
+        // Calculate saving for a 20% discount
+        double discount = 0.2;
+        double saving = machine.calculateSaving(discount);
+        System.out.println("You saved: " + saving + " from a discount of " + (discount * 100) + "% on the price of "
+                + machine.getPrice());
     }
 }

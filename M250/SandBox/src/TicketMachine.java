@@ -74,6 +74,15 @@ public class TicketMachine {
     }
 
     /**
+     * Calculate the saving based on the ticket price and a discount.
+     */
+    public double calculateSaving(double discount) {
+        double saving = price * discount;
+        return saving;
+    }
+    
+
+    /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
      * an error message if more money is required.
