@@ -29,6 +29,21 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+     public TicketMachine()
+    {
+        price = 1000;
+        balance = 0;
+        total = 0;
+    }
+       /**
+     * Empty the machine by setting the total to zero.
+     */
+    public void empty()
+    {
+    total = 0;
+    }
+
 
     /**
      * Return the price of a ticket.
@@ -54,7 +69,20 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+    /**
+     * Ask for the correct price of a ticket 
+     */
+    public void prompt(){
+        System.out.println("Please insert the correct amount of money");
+    }
+    
+    /**
+     * Show the price of a ticket 
+     */
+    public void showPrice(){
+        System.out.println("The price of a ticket is " + price + " cents");
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
