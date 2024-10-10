@@ -1,0 +1,21 @@
+body {
+  margin-top: 24px;
+}
+
+.heading {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.subheading {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.navigation {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  text-align: left;
+}
