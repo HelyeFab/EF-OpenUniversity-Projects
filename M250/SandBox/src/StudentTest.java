@@ -1,3 +1,4 @@
+package SandBox.src;
 public class StudentTest{
     public static void main(String[] args) {
         // Create an instance of Student

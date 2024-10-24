@@ -1,3 +1,4 @@
+package SandBox.src;
 public class BooleanChecker {
 
     // Method to check if both values are the same
