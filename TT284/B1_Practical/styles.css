@@ -19,3 +19,210 @@ body {
   font-size: 13pt;
   text-align: left;
 }
+
+#info {
+  position: absolute;
+  left: 24px;
+  top: 220px;
+  background-color: silver;
+  width: 300px;
+  text-align: left;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#landscape {
+  position: absolute;
+  left: 480px;
+  top: 220px;
+}
+
+#portrait {
+  position: absolute;
+  left: 24px;
+  top: 300px;
+}
+
+#featuretext {
+  position: absolute;
+  left: 250px;
+  top: 424px;
+
+  width: 540px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+
+  color: #000000;
+
+  text-align: left;
+}
+
+#rooms {
+  position: absolute;
+  left: 280px;
+  top: 640px;
+
+  background-color: silver;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  text-align: left;
+}
+
+#accentimages {
+  position: absolute;
+  left: 24px;
+  top: 750px;
+}
+
+.footer {
+  position: absolute;
+  left: 24px;
+  top: 980px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  color: #000000;
+}
+
+.slide {
+  position: absolute;
+  left: 24px;
+  top: 250px;
+}
+
+.slidetitle {
+  position: absolute;
+  left: 180px;
+  top: 890px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  color: #000000;
+}
+
+.slideprevious {
+  position: absolute;
+  left: 24px;
+  top: 920px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  color: #000000;
+}
+
+.slideprevious a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.slidenext {
+  position: absolute;
+  left: 420px;
+  top: 920px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  color: #000000;
+}
+
+.slidenext a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#map {
+  position: absolute;
+  left: 20px;
+}
+
+#address {
+  position: absolute;
+  left: 440px;
+  top: 360px;
+}
+
+.boldhead {
+  position: absolute;
+  left: 20px;
+  top: 260px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  color: #000000;
+}
+
+#link1 {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+
+  width: 240px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#link2 {
+  position: absolute;
+  left: 20px;
+  top: 110px;
+
+  width: 240px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#link3 {
+  position: absolute;
+  left: 20px;
+  top: 210px;
+
+  width: 240px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#link4 {
+  position: absolute;
+  left: 20px;
+  top: 290px;
+
+  width: 240px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#link5 {
+  position: absolute;
+  left: 20px;
+  top: 390px;
+
+  width: 240px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
