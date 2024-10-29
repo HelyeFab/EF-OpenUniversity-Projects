@@ -226,3 +226,50 @@ body {
 
   font-size: 13px;
 }
+
+.boldhead {
+  position: absolute;
+  left: 20px;
+  top: 260px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  color: #000000;
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+#weekly {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#weekends {
+  position: absolute;
+  left: 20px;
+  top: 130px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
+
+#details {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+}
