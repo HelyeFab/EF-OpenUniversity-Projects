@@ -44,11 +44,9 @@ public class TicketMachine
     {
         return balance;
     }
-
+    
+    
     /**
-     * Receive an amount of money from a customer.
-     * Check that the amount is sensible.
-     */
     public void insertMoney(int amount)
     {
         if(amount > 0) {
@@ -58,6 +56,29 @@ public class TicketMachine
             System.out.println("Use a positive amount rather than: " +
                                amount);
         }
+        
+      
+    }
+    */
+
+    /**
+     * Receive an amount of money from a customer.
+     * Check that the amount is sensible.
+     */
+  
+   
+   
+     public void insertMoney(int amount)
+    {
+        if(amount == 0) {
+            System.out.println("Use a positive amount rather than: " +
+                               amount);
+        }
+        else {
+            balance = balance + amount;
+        }
+        
+      
     }
 
     /**

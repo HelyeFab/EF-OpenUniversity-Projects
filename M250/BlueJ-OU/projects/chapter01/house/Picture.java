@@ -42,7 +42,7 @@ public class Picture
             wall.changeSize(120);
             wall.makeVisible();
             
-            window.changeColor("black");
+            
             window.moveHorizontal(-120);
             window.moveVertical(40);
             window.changeSize(40);
@@ -53,7 +53,7 @@ public class Picture
             roof.moveVertical(-60);
             roof.makeVisible();
     
-            sun.changeColor("blue");
+        
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
@@ -66,7 +66,16 @@ public class Picture
             secondSun.changeSize(80);
             secondSun.makeVisible();
             drawn = true;
+            
+            //Ex. 3.37
+            setWinSunColor();
         }
+    }
+    
+    public void setWinSunColor(){
+        window.changeColor("black");
+        sun.changeColor("yellow");
+    
     }
 
     /**

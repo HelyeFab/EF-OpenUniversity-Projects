@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\n\ Write\ a\ description\ of\ class\ Heater\ here.\n\n\ @author\ EFabiani\n\ @version\ 01_16_10_2024\n
+comment1.params=
+comment1.target=Heater()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Heater\n
+comment2.params=
+comment2.target=void\ makeWarmer()
+comment3.params=
+comment3.target=void\ makeCooler()
+comment4.params=
+comment4.target=double\ getTemperature()
+numComments=5
