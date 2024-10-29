@@ -6,7 +6,7 @@
       content="HTML Tidy for HTML5 for Linux version 5.6.0"
     />
     <meta charset="utf-8" />
-    <title>Erehwon Guest House Template</title>
+    <title>Erehwon Guest House Contact Form</title>
     <meta
       name="keywords"
       content="Erehwon Guest House, East Coast Breaks, Competitive Prices,
@@ -47,6 +47,58 @@
       </p>
     </nav>
 
+    <!-- Section Contact-->
+
+    <!-- Opening the form element -->
+
+    <form action="mailto:mike@erehwon.open.ac.uk?subject=Erehwon_website_form_submission">
+      <!-- Contact information fieldset -->
+
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>First Name: <input name="first_name" type="text" /></label>
+      <label>Last Name: <input name="last_name" type="text" /><br /></label>
+      <label>Email: <input name="email_address" type="text" /></label>
+    </fieldset>
+    <!-- Type of feedback fieldset -->
+
+<fieldset>
+
+<legend>Type of feedback</legend>
+
+<label><input name="feedback_type" type="checkbox" value="Availability" /> Room Availability</label>
+
+<label><input name="feedback_type" type="checkbox" value="Feedback" /> Feedback</label>
+
+</fieldset>
+
+<!-- Input text Fieldset -->
+
+<fieldset>
+
+<legend>Your feedback:</legend>
+
+<p>Enter your feedback in the space below:</p><br />
+
+<textarea name="Query" rows="15" cols="60" title="Enter your feedback" placeholder="Enter your feedback here">
+
+</textarea>
+
+</fieldset>
+
+
+
+<!-- Submit and reset buttons -->
+
+<p><input type="submit" name="submit" value="Submit" />
+
+</p>
+
+<!-- Closing the form element -->
+
+</form>
+
+    <!-- Footer -->
    <footer class ="footer">&copy; 2018 Your Name Here.</footer>
   </body>
 </html>
