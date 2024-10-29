@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ A\ basic\ shape\ of\ a\ tree\ that\ can\ be\ manipulated\ and\ that\ draws\ itself\ on\ a\n\ canvas.\n\ \n\ @author\ S.E.\ Fabiani\n\ @version\ 2024.10.25\n
+comment1.params=
+comment1.target=Tree()
+comment1.text=\n\ Create\ a\ new\ tree\ at\ a\ default\ position\ with\ default\ color.\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\n\ Make\ this\ tree\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\n\ Make\ this\ tree\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\n
+comment4.params=distance
+comment4.target=void\ moveHorizontal(int)
+comment4.text=\n\ Move\ the\ tree\ to\ a\ new\ horizontal\ and\ vertical\ position.\n
+comment5.params=distance
+comment5.target=void\ moveVertical(int)
+comment6.params=trunkColor\ leavesColor
+comment6.target=void\ changeColor(java.lang.String,\ java.lang.String)
+comment6.text=\n\ Change\ the\ color\ of\ the\ tree.\n\ \n\ @param\ trunkColor\ \ The\ color\ for\ the\ trunk.\n\ @param\ leavesColor\ The\ color\ for\ the\ leaves.\n
+comment7.params=trunkSize\ leavesWidth\ leavesHeight
+comment7.target=void\ changeSize(int,\ int,\ int)
+comment7.text=\n\ Change\ the\ size\ of\ the\ tree\ by\ setting\ a\ new\ trunk\ size\ and\ leaves\ size.\n\ \n\ @param\ trunkSize\ \ \ \ The\ size\ of\ the\ trunk.\n\ @param\ leavesWidth\ \ The\ width\ of\ the\ leaves.\n\ @param\ leavesHeight\ The\ height\ of\ the\ leaves.\n
+numComments=8
