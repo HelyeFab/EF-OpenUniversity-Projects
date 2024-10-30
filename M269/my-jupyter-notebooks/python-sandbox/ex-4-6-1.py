@@ -1,3 +1,4 @@
+from  algoesup import test
 
 def reverse_in_place(values):
     left = 0
@@ -47,3 +48,31 @@ def reverse_string(s):
 
 print(sorted([1, 4, 3, 2, 5], reverse=True) ) # Expected output: [5, 4, 3, 2, 1]
 
+
+def reversed_list(values: list) -> list:
+    """Reverse the order of elements in a list.
+
+    Args:
+        values (list): _description_
+
+    Returns:
+        list: _description_
+    """
+    reversed_values = []
+    for i in values:
+        reversed_values.insert(0, i)
+    return reversed_values
+
+  
+reversed_list_tests = [
+    # case,             values,             reversed
+    ('empty list',      [],                 []              ),
+    ('length 1',        [4],                [4]             ),
+    ('length 2',        [5, True],          [True, 5]       ),
+    ('length 5',        [5, 6, 7, 8, 9],    [9, 8, 7, 6, 5] ),
+    ('same items',      [0, 0, 0],          [0, 0, 0]       )
+]
+
+# print(reversed_list(reversed_list_tests))
+
+test(reversed_list, reversed_list_tests)
